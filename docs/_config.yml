@@ -1,5 +1,7 @@
 theme: jekyll-theme-time-machine
+plugins:
+  - jemoji
 
-title: Trumpet &#x1F3BA;
+title: Trumpet
 description: A hackathon display system.
 show_downloads: true
