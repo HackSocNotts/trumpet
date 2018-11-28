@@ -1,0 +1,47 @@
+<!--
+    Copyright 2018 James C. (https://mrjamesco.uk)
+    Released under MIT License
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trumpet</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body class="blue-grey lighten-5">
+        <header id="top">
+            <nav class="nav-extended blue-grey">
+                <div class="nav-wrapper container">
+                    <a href="#top" class="brand-logo center">Trumpet</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="card-panel center">
+                        <div class="input-field col s12">
+                            <input id="terminalPassword" type="password" onkeyup="if (event.keyCode == 13) {auth();}">
+                            <label for="terminalPassword">Password</label>
+                        </div>
+                        <a class="waves-effect waves-teal btn-large blue-grey" onclick="auth()">Login <i class="material-icons right">send</i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            function auth()
+            {
+                expires = new Date();
+                expires.setTime(expires.getTime() + 3600000);
+                document.cookie="terminalPassword=" + document.querySelector("#terminalPassword").value + "; path=/; expires=" + expires.toUTCString();
+                location.reload();
+            }
+        </script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>

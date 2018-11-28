@@ -1,0 +1,80 @@
+/*
+    Copyright 2018 James C. (https://mrjamesco.uk)
+    Released under MIT License
+*/
+
+body
+{
+    font-family: "Roboto Mono", monospace;
+    overflow: hidden;
+    cursor: none;
+    background-color: black;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.heading-screen
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading-wrapper
+{
+    font-size: 7.5vh;
+    text-align: center;
+    color: white;
+    line-height: 10vh;
+}
+
+.progressbar
+{
+    height: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.progressbar-inner
+{
+    width: 0%;
+    height: 100%;
+}
+
+#alert-modal
+{
+    width: 95vw;
+    height: 95vh;
+    position: absolute;
+    top: 2.5vh;
+    left: 2.5vw;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 50px 5px #000000;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+twitter-widget
+{
+    transform: scale(1.82) !important;
+    text-shadow: none !important;
+}
+
+#alert-modal>img
+{
+    max-height: 95%;
+}

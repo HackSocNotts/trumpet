@@ -1,0 +1,25 @@
+{
+    "firebase": {
+                    "apiKey": "ENTER_API_KEY_HERE",
+                    "authDomain": "ENTER_AUTH_DOMAIN_HERE",
+                    "databaseURL": "ENTER_DB_URL_HERE",
+                    "projectId": "ENTER_PROJECT_ID_HERE",
+                    "storageBucket": "ENTER_STORAGE_BUCKET_HERE",
+                    "messagingSenderId": "ENTER_MESSAGING_SENDER_ID_HERE"
+                },
+
+    "terminalPass":     "EnterYourPasswordHere",
+                
+    "hackathonStart":   "1970-01-01T12:00:00.000Z",
+    "hackathonEnd":     "1970-02-01T12:00:00.000Z",
+
+    "eventName":        "YourHackathonNameHere",
+    "eventEndInfo":     "Some details<br>you'd like to show<br>after the time runs out",
+
+    "mainBackground":   "darkorchid",
+    "alertBackground":  "chocolate",
+    "mainTextColour":   "white",
+    "alertTextColour":  "white",
+    "progressBarLeft":  "green",
+    "progressBarRight": "gray"
+}
