@@ -40,14 +40,9 @@ Trumpet uses Firebase in order to quickly distribute information from a terminal
 
 When that's finished being created, click on "Database" on the sidebar on the left side of the screen. Click "Create database" and in the pop-up that appears, click "Start in **test mode**" followed by "Enable".
 
-Once here, click the button on the left of the screen that says "Add collection", and give the collection a Collection ID of "10ft".
-![Step 4 Part 1](img/setup_step4_1.png)
+Next, navigate to the "Authentication" tab on the sidebar, at the top of the list. On the top right of the screen, click "Web setup" and copy the values for "apiKey" and "projectID" from the config object in the pop-up that appears into `misc/config.json` (in place of `ENTER_API_KEY_HERE` and `ENTER_PROJECT_ID_HERE`).
 
-Click next, and change the Document ID to "modal". Then, add three fields, called "type", "data", and "timestamp" - the first two should be of the type "string", whilst timestamp should have the type "number" and the value "0".
-![Step 4 Part 2](img/setup_step4_2.png)
-
-Next, navigate to the "Authentication" tab on the sidebar, at the top of the list. On the top right of the screen, click "Web setup" and copy the values from the config object in the pop-up that appears into `misc/config.json` (in place of `ENTER_API_KEY_HERE` and so on).
-![Step 4 Part 3](img/setup_step4_3.png)
+![Step 4 Part 3](img/setup_step4_1.png)
 
 ## Step 5: Run and connect to the server
 

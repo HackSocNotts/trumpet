@@ -1,11 +1,7 @@
 {
     "firebase": {
                     "apiKey": "ENTER_API_KEY_HERE",
-                    "authDomain": "ENTER_AUTH_DOMAIN_HERE",
-                    "databaseURL": "ENTER_DB_URL_HERE",
-                    "projectId": "ENTER_PROJECT_ID_HERE",
-                    "storageBucket": "ENTER_STORAGE_BUCKET_HERE",
-                    "messagingSenderId": "ENTER_MESSAGING_SENDER_ID_HERE"
+                    "projectId": "ENTER_PROJECT_ID_HERE"
                 },
 
     "terminalPass":     "EnterYourPasswordHere",
