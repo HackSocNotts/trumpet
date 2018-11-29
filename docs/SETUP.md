@@ -46,7 +46,7 @@ Next, navigate to the "Authentication" tab on the sidebar, at the top of the lis
 
 ## Step 5: Run and connect to the server
 
-Now, run the `server.py` file. The exact command may vary depending on your operating system, so if in doubt, look up how to run Python 3 files on your setup. Then, navigate to `http://localhost:5000` from a browser. If everything is working, this will show an index page with links labelled "10ft" and "Terminal". "10ft" is the page designed to be shown on screens around the event, and "Terminal" is the page that allows you ot send messages, gifs, tweets, or whatever other HTML you'd like to show to all at the event.
+Now, run the `server.py` file. The exact command may vary depending on your operating system, so if in doubt, look up how to run Python 3 files on your setup. Then, navigate to `http://localhost:5000` from a browser. If everything is working, this will show an index page with links labelled "10ft" and "Terminal". "10ft" is the page designed to be shown on screens around the event, and "Terminal" is the page that allows you to send messages, gifs, tweets, or whatever other HTML you'd like to show to all at the event.
 
 At each computer you'd like to show the 10ft display page, navigate to your computer's IP address (with port 5000), click "10ft" and enter the password you set in step 3. Then, if you'd like to send a message during the event, open the terminal page on another computer and enter your password. Then select the appropriate type for the message, the duration in seconds you'd like the message to appear for, and click "Submit Modal". The types of messages are as follows:
 
