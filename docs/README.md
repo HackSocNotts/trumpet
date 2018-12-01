@@ -13,5 +13,6 @@ Please see the [SETUP.md](SETUP.md) file to find instructions on setting up Trum
 Trumpet has been used at the following events:
 
 - [HackNotts 2018](https://hacknotts.com)
+- [MLH Local Hackday 2018](https://localhackday.mlh.io/) (Sites: [HackSoc/University of Nottingham](https://hacksocnotts.co.uk))
 
 If you use Trumpet, then we'd love to hear about it! Feel free to get in touch on Twitter via [@HackSocNotts](https://twitter.com/HackSocNotts) or [@MrJamesCo](https://twitter.com/MrJamesCo)!
