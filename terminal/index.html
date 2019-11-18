@@ -1,5 +1,5 @@
 <!--
-    Copyright 2018 James C. (https://mrjamesco.uk)
+    Copyright 2019 James C. (https://mrjamesco.uk)
     Released under MIT License
 -->
 
@@ -37,6 +37,10 @@
                         <div class="input-field col s12">
                             <input id="duration" type="number" class="validate" value="60" onkeyup="if (event.keyCode == 13) {updateModal();}">
                             <label for="duration">Message duration (in seconds)</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="fontsize" type="number" class="validate" value="100" onkeyup="if (event.keyCode == 13) {updateModal();}">
+                            <label for="fontsize">Font size (percentage without % sign)</label>
                         </div>
                         <a class="waves-effect waves-teal btn-large green" onclick="updateModal()">Submit Modal <i class="material-icons right">send</i></a>
                         <a class="waves-effect waves-teal btn-large red" onclick="stopModal()">Stop Modal <i class="material-icons right">not_interested</i></a>

@@ -1,4 +1,4 @@
-// Copyright 2018 James C. (https://mrjamesco.uk)
+// Copyright 2019 James C. (https://mrjamesco.uk)
 // Released under MIT License
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -29,14 +29,26 @@ function initFirebase()
 function updateModal()
 {
     const message_type = document.querySelector("#type").value;
-    const message_text = document.querySelector("#message").value;
+    const message_text = document.querySelector("#message");
     const message_duration = document.querySelector("#duration").value;
+    const message_fontsize = document.querySelector("#fontsize").value;
 
-    modalRef.set({
-        "type": message_type,
-        "data": message_text,
-        "timestamp": (1000 * message_duration) + Date.now()
-    });
+    if (message_type == "text")
+    {
+        modalRef.set({
+            "type": message_type,
+            "data": "<span style=\"font-size: " + message_fontsize + "%\">" + document.querySelector("#message").value + "</span>",
+            "timestamp": (1000 * message_duration) + Date.now()
+        });
+    }
+    else
+    {
+        modalRef.set({
+            "type": message_type,
+            "data": document.querySelector("#message").value,
+            "timestamp": (1000 * message_duration) + Date.now()
+        });
+    }
 }
 
 function stopModal()
