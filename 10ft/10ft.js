@@ -1,4 +1,4 @@
-// Copyright 2018 James C. (https://mrjamesco.uk)
+// Copyright 2019 James C. (https://mrjamesco.uk)
 // Released under MIT License
 
 let showColon = true;
@@ -126,6 +126,6 @@ function updateTime()
     document.querySelector("#remainingtime").innerHTML = hours + ":" + mins + ":" + secs;
 
 
-    let percent = 100 * ((hours*3600) + (mins*60) + secs) / eventDuration;
+    let percent = 100 * ((parseInt(hours, 10) * 3600) + (parseInt(mins, 10) * 60) + parseInt(secs, 10)) / eventDuration;
     document.querySelector(".progressbar-inner").style.width = (100 - percent) + "%";
 }
